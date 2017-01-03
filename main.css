@@ -1,0 +1,37 @@
+.container {
+  left: 50%;
+  height: 370px;
+  margin-left: -540px;
+  margin-top: -185px;
+  position: absolute;
+  top: 40%;
+  width: 1080px;
+}
+
+.frame {
+  position: relative;
+  width: 50%;
+}
+
+.frame:last-child {
+  left: 540px;
+}
+
+.frame:last-child img {
+  transform: rotate(180deg);
+}
+
+img,
+video {
+  left: 0;
+  position: absolute;
+}
+
+img {
+  top: 0;
+  z-index: 1;
+}
+
+video {
+  top: 5px;
+}
